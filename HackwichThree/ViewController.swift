@@ -19,6 +19,26 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet var magicLabelPressed: UILabel!
+var magicLabel = "The label will turn green"
+
+    @IBAction func magicButtonPressed(_ sender: Any) {
+        if magicButton == "The background will turn green"
+        { self.view.backgroundColor = UIColor.red
+            
+        }else {
+            self.view.backgroundColor = UIColor.green
+        }
+    
+    }
+var magicButton = "The background will turn red"
+    
+    @IBOutlet var labelOnePressed: UILabel!
+var labelOne =  "The label will turn red"
+    
+    @IBOutlet var labelTwoPressed: UILabel!
+var labelTwo = "The label will turn blue"
+    
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         if firstString == "The background color will turn red"
         {
@@ -33,4 +53,7 @@ class ViewController: UIViewController {
 }
     
 }
+
+
+
 
